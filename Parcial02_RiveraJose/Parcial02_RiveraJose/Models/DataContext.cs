@@ -12,5 +12,7 @@ namespace Parcial02_RiveraJose.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Parcial02_RiveraJose.Models.Friend> Friends { get; set; }
     }
 }
